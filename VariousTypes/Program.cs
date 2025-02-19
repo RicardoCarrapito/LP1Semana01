@@ -28,6 +28,12 @@ namespace VariousTypes
 
             Console.WriteLine(pi);
             Console.WriteLine(random);
+
+            bool verdade=true;
+            bool falso=false;
+
+            Console.WriteLine(verdade);
+            Console.WriteLine(falso);
         }
     }
 }
