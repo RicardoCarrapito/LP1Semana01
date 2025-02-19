@@ -22,6 +22,12 @@ namespace VariousTypes
             Console.WriteLine(checksymbol);
             Console.WriteLine(arrow);
             Console.WriteLine(cross);
+
+            float pi= 3.1416f;
+            float random= 1.5654f;
+
+            Console.WriteLine(pi);
+            Console.WriteLine(random);
         }
     }
 }
