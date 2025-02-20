@@ -26,8 +26,19 @@ namespace ManyStrings
             Console.WriteLine(concatenacao2);
             Console.WriteLine(interpolacao1);
             Console.WriteLine(interpolacao2);
-            
 
+            double xx= 1.23456;
+            int ii = 19;
+
+            string xx1=$"{xx:f2}";
+            string xx2=$"{xx:p1}";
+            string ii1=$"{ii:X}";
+            string ii2=$"{ii:C}";
+
+            Console.WriteLine(xx1);
+            Console.WriteLine(xx2);
+            Console.WriteLine(ii1);
+            Console.WriteLine(ii2);
 
         }
     }
