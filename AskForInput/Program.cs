@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography;
 
 namespace AskForInput
 {
@@ -13,8 +14,8 @@ namespace AskForInput
             Console.WriteLine("Introduza um numero real:");
             string str2 = Console.ReadLine();
             float real = float.Parse(str2);
-            
-             
+
+            Console.WriteLine("A soma de ambos ira ser:"+(inteiro+real));
 
         }
     }
